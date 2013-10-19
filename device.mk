@@ -28,6 +28,3 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/jf-common/overlay-cdma
 
 # Inherit from jf-common
 $(call inherit-product, device/samsung/jf-common/jf-common.mk)
-
-PRODUCT_COPY_FILES += \
-    device/samsung/jfltespr/apns-conf-cdma.xml:system/etc/apns-conf.xml
